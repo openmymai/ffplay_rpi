@@ -1,0 +1,9 @@
+[Unit]
+Description=Wisdom
+
+[Service]
+User=wolverine
+ExecStart=/home/wolverine/wisdom.sh
+
+[Install]
+WantedBy=multi-user.target
